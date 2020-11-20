@@ -1,0 +1,84 @@
+.tabbable .nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+.tabbable .nav .nav-item {
+    white-space: nowrap;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 81, 255);
+}
+
+
+/* navbar ends */
+
+body {
+    background-image: url('./assets/bg.jpg');
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.matter {
+    max-width: 250px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(8, 58, 105);
+    box-sizing: border-box;
+    font-style: italic;
+    padding: 30px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 25px;
+    opacity: 1;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.cope {
+    max-width: 700px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(143, 10, 21);
+    box-sizing: border-box;
+    padding: 30px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-style: italic;
+    opacity: 1;
+}
+
+.impact {
+    max-width: 250px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(46, 95, 5);
+    box-sizing: border-box;
+    padding: 30px;
+    color: #fff;
+    margin-top: 20px;
+    font-style: italic;
+    margin-left: 25px;
+    opacity: 1;
+}
+
+.stress {
+    font-size: 22px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
